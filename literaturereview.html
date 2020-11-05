@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- UP812110 -->
+<html lang="en">
+<head>
+  <title>LituratureReview</title>
+  <link rel="stylesheet" href="webpage-css/home-css.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <header id="headerfixed" class="clearfix">
+      <div class="container">
+  			<div class="header-left">
+  				<img id="logo" alt="WEBF1 Logo" src="webpage-pictures/logo1.png"/>
+  			</div>
+  			<div class="header-right">
+  				<label for="open">
+  					<span class="hidden-desktop"></span>
+  				</label>
+  				<input type="checkbox" id="open">
+  				<nav>
+  					<a href="home.html">Home</a>
+  					<a href="discoverylog.html">Discovery Log</a>
+  					<a href="literaturereview.html">Literature Review</a>
+  					<a href="portfolio.html">Portfolio</a>
+  				</nav>
+  			</div>
+  		</div>
+  	</header>
+<div class="wrapper">
+  <header id="headernamefixed">Liturature Review</header>
+  <aside class="aside aside-1">
+    <ul id="links">
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#socialengineering">Social Engineering</a></li>
+      <li><a href="#pharming">Pharming</a></li>
+      <li><a href="#malware">Malware</a></li>
+      <li><a href="#trojanhorses">Trojan horses</a></li>
+      <li><a href="#spyware">Spyware</a></li>
+      <li><a href="#worms">Worms</a></li>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#bibliography">Bibliography</a></li>
+    </ul>
+  </aside>
+  <article class="main" id="main2">
+      <h1>Mitigating personal information exposure on the web</h1>
+      <span id = "introduction"></span>
+  <section>
+    <h2>Introduction</h2>
+    <p>Individuals and organisations are constantly susceptible to manipulation on the internet. Therefore, mitigating personal information exposure on the web is significant to protect an individual or organisation. There are various attacks that can be made to gain sensitive information such as social engineering, and malware. This literature review will cover both these attacks and evaluate their prevention methods.</p>
+  </section>
+  <span id = "socialengineering"></span>
+  <section>
+    <h2>Social Engineering</h2>
+    <p>Social engineering is an act of deceiving individuals into disclosing confidential information.
+There are multiple ways of social engineering, however only phishing and pharming will be discussed (Conteh & Schmick, 2016, p. 32).
+    </p>
+    <p>According to Ghosh (2013, p. 54) “More than 50% of users are not confident whether they could recognize a phishing letter or webpage by themselves.” This suggests that users are not aware of phishing attacks. Technical techniques in preventing phishing include numerous layers of defence that shield the network, these include Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS). IDS tends to only detect certain forms of attacks. It does not immediately prevent attacks. Thus, only being effective for the network administrator identify the threat and therefore being able to act to prevent the attack. IDS is often used in combination with IPS in providing an enhanced network security (Joldzic, Djuric, & Vuletic, 2016, p.28). Errors that occur using IDS often includes False Positives (FP) and False Negatives (FN) (Rizvi, Labrador, Guyan, & Savan, 2016, p. 370). Li, Meng, Luo, & Kwok (2016, p. 190) conducted research in relation to FP and FN of IDS, results indicate a reduction of FP and FN when algorithms were used. With regards to the results, there were many attacks that are not being detected. Thus, implying the use of IDS will not prevent attacks, however will reduce them. IDS was only mentioned in the research; however, these effects reflect onto IPS due to the detection process. </p>
+  </section>
+  <span id = "pharming"></span>
+  <section>
+  <h2>Pharming</h2>
+  <p>Pharming attacks primarily involves the user being misdirected to fraudulent websites or unintentionally downloading malicious programs (Brody, Mulig, & Kimball, 2007, p. 47). Britt (2005), cited by Brody et al. (2007, p. 49) quotes “Pharming is one of the top Internet crimes in the United Kingdom”. Therefore, indicating that pharming may be difficult to prevent, or prevention methods are not effective. This is supported by Srinivasan (2007, p. 12) who states that countering Pharming is very difficult as anti-virus and similar software won't provide protection against the threat. However, De La Cuadra (2005, p. 1) expresses that antivirus security is the solutions in preventing pharming.  Li, Chu, & Xiao (2014, p. 1) notes that sophisticated anti-pharming measures are strongly required to protect against this serious threat. As of these pieces of research, information gathered has shown contradiction on whether anti-virus are counter measures for pharming.</p>
+  </section>
+  <span id = "malware"></span>
+  <section>
+  <h2>Malware</h2>
+  <p>Malware is defined as an all-inclusive term that refers to all types of malicious software (Harwood, 2011, p. 110).  The types of malware that will be covered are Trojan horses, spyware, and worms. </p>
+  </section>
+  <span id = "trojanhorses"></span>
+  <section>
+  <h2>Trojan horses</h2>
+  <p>Trojan horses are created to trick individuals into installing them (Harwood, 2010, p. 79). Ways of alleviating Trojan include using anti-virus software and honeypots. Anti-virus software’s are oriented on detection of known Trojans (Lysenko & Savenko, 2016, p. 121). According to Oriyano & Gregg (2010, p. 261) anti-virus are the most reliable method of detecting Trojans. They must be kept up to date to mitigate personal information exposure. Honeypots are deemed to be easy to set up and quite secure due to limited capabilities (Diebold, Hess, & Schafer, 2005, p. 2).  Honeypots tremendously reduce false positives (Spitzner, 2003, p. 179). Therefore, reducing time and issues. Honeynets and honeytokens are two types of honeypots that are essential in indicating and capturing an advanced insider threat. Spitzner (2003, p. 179) implemented a strategy of combining both honeynet and honeytoken to be able to detect, identify and confirm insider threats. Results show that early detection and confirmation of insider threats were found due to the strategy implemented. Honeypots are designed to be in conjunction with other security measures to provide an enhanced security (Mokube & Adams, 2007, p. 324). Honeypots can be divided into two types, low-interaction and high-interaction. Low-interaction honeypots are easy to install, configure, and maintain. Limited information on the attacker is gathered by this type. High interaction honeypots are the opposite to low interactions. They are difficult to install, configure, and maintain. Using this type gathers large amount of information on the attackers’ features and behaviours. (Marchese, Surlinelli, & Zappatore, 2010, p. 76). From the perspective of which type of honeypot would be the most effective, high-interaction honeypots is shown to be very efficacious with the information that it collects.</p>
+  </section>
+  <span id = "spyware"></span>
+  <section>
+  <h2>Spyware</h2>
+  <p>Spyware gathers information on the user’s activity, without their knowledge (Oriyano & Gregg, 2010, p. 246). Ways of reducing and preventing spyware include using anti-spyware software, and firewalls. Anti-spyware tools remove the programs with spyware attached from the system, consequently users suffer from losing the original functions of the program (Chow, Hui, Yiu, Chow, & Lui, 2004, p. 228). Anti-spyware programs are recommended as a standalone program (Shams, Farhan, khan, & Hashm, 2011, p. 79). This is because the program is designed as an all in one, detecting and removing spyware.  Both Chow et al., (2004, p. 227) and Clutterbuck & O’Brien (2006, p. 467) mention that existing spyware solutions involves a continuous updated scanning tool, which examines and treats the user's system.  </p>
+  </section>
+  <span id = "worms"></span>
+  <section>
+  <h2>Worms</h2>
+  <p>Worms are standalone programs that spreads silently and automatically to user’s computers (Gupta, Vashisht, & Singh, 2016, p. 33). Prevention of worms include being educated and using anti-virus software. Oriyano & Gregg (2010, p. 246) notes that it is easier to halt the problem before it starts, than to try fix it after. Furthermore, it mentions that the power of education is a key component in preventing worms. Most worms are spread via e-mail application. Therefore, it's vital that users can identify e-mails of unknown origin and stop their curiosity by not opening them. Anti-virus is also the most reliable method of detecting worms (Oriyano & Gregg, 2010, p. 261).</p>
+  </section>
+  <span id = "summary"></span>
+  <section>
+  <h2>Summary</h2>
+  <p>The purpose of this review was to explore the topic of mitigating personal information exposure on the web. There has been vast research in preventing and reducing different threats. However, there are still gaps implementing effective solutions that will mitigate sensitive information being exposed. </p>
+  </section>
+
+  <p> Word count: 1045 (Including Title) </p>
+  <span id="bibliography"></span>
+  <section>
+  <h2>Bibliography</h2>
+  <ul class="bibliography">
+  <li>Brody, R., Mulig, E., & Kimball, V. (2007). PHISHING, PHARMING AND IDENTITY THEFT. Academy Of Accounting & Financial Studies Journal, 11(3), 43-56.<li>
+
+  <li>Chow, S., Hui, L., Yiu, S., Chow, K., & Lui, R. (2004). A generic anti-spyware solution by access control list at kernel level. Journal Of Systems And Software, 75(1-2), 227-234. http://dx.doi.org/10.1016/j.jss.2004.05.027<li>
+
+  <li>Clutterbuck, P. & O’Brien, P. (2006). A Software Audit Framework for Spyware Risk Mitigation. UQ Business School, University of Queensland, Brisbane, Australia.<li>
+
+  <li>Conteh, N. & Schmick, P. (2016). Cybersecurity:risks, vulnerabilities and countermeasures to prevent social engineering attacks. International Journal Of Advanced Computer Research, 6(23), 31-38. http://dx.doi.org/10.19101/ijacr.2016.623006<li>
+
+  <li>De La Cuadra, F. (2005). Pharming - a new technique for Internet fraud. International Technical Editor, 1.<li>
+
+  <li>Diebold, P., Hess, A., & Schafer, G. (2005). A Honeypot Architecture for Detecting and Analyzing Unknown Network Attacks, 1-12.<li>
+
+  <li>Ghosh, A. (2013). Seclayer: A Plugin to Prevent Phishing Attacks. IUP Journal Of Information Technology, 9(4), 52-64.<li>
+
+  <li>Gupta, S., Vashisht, S., & Singh, D. (2016). A CANVASS ON CYBER SECURITY ATTACKS AND COUNTERMEASURES. In 1st International Conference on Innovation and Challenges in Cyber Security (pp. 31-35). Greater Noida Campus, India.<li>
+
+  <li>Harwood, M. (2010). Internet security (1st ed., p. 79). Sudbury, Mass.: Jones & Bartlett.<li>
+
+  <li>Harwood, M. (2011). Security strategies in Web applications and social networking (1st ed., p. 110). Sudbury, Mass.: Jones & Bartlett Learning.<li>
+
+  <li>Joldzic, O., Djuric, Z., & Vuletic, P. (2016). A transparent and scalable anomaly-based DoS detection method. Computer Networks, 104, 27-42. http://dx.doi.org/10.1016/j.comnet.2016.05.004<li>
+
+  <li>Li, W., Meng, W., Luo, X., & Kwok, L. (2016). MVPSys: Toward practical multi-view based false alarm reduction system in network intrusion detection. Computers & Security, 60, 177-192. http://dx.doi.org/10.1016/j.cose.2016.04.007<li>
+
+  <li>Li, Y., Chu, S., & Xiao, R. (2014). A pharming attack hybrid detection model based on IP addresses and web content. Optik - International Journal For Light And Electron Optics, 126(2), 234-239. http://dx.doi.org/10.1016/j.ijleo.2014.10.001<li>
+
+  <li>Lysenko, S. & Savenko, O. (2016). SOFTWARE FOR COMPUTER SYSTEMS TROJANS DETECTION AS A SAFETY-CASE TOOL. Information & Security, 28(1), 121-132.<li>
+
+  <li>Marchese, M., Surlinelli, R., & Zappatore, S. (2010). Monitoring unauthorized internet accesses through a ‘honeypot’ system. International Journal Of Communication Systems, 24(1), 75-93. http://dx.doi.org/10.1002/dac.1141<li>
+
+  <li>Mokube, I. & Adams, M. (2007). Honeypots: Concepts, Approaches, and Challenges, 321-326.<li>
+
+  <li>Oriyano, S. & Gregg, M. (2010). Hacker techniques, tools, and incident handling (1st ed., p. 246). Sudbury, Mass.: Jones & Bartlett Learning.<li>
+
+  <li>Rizvi, S., Labrador, G., Guyan, M., & Savan, J. (2016). Advocating for Hybrid Intrusion Detection Prevention System and Framework Improvement. Procedia Computer Science, 95, 369-374. http://dx.doi.org/10.1016/j.procs.2016.09.347<li>
+
+  <li>Shams, R., Farhan, M., khan, S., & Hashm, F. (2011). Comparing Anti-Spyware Products – A different Approach, 75-80.<li>
+
+  <li>Spitzner, L. (2003). Honeypots: Catching the Insider Threat. In Computer Security Applications Conference (pp. 170-179). IEEE.<li>
+
+  <li>Srinivasan, R. (2007). PROTECTING ANTI-VIRUS SOFTWARE UNDER VIRAL ATTACKS (Master of Science). Arizona State University.<li>
+  </ul>
+
+</section>
+</article>
+</div>
+
+<footer class="footer">
+  <a href="https://twitter.com/?lang=en" target="_blank" >
+<img src="webpage-pictures/iconmonstr-twitter-w.png" alt="Twitter Logo" width="25" height="25" />
+</a>
+<a href="https://www.youtube.com/" target="_blank" >
+<img src="webpage-pictures/iconmonstr-youtube-w.png" alt="Youtube Logo" width="25" height="25" />
+</a>
+<a href="https://www.facebook.com/" target="_blank" >
+<img  src="webpage-pictures/iconmonstr-facebook-w.png" alt="Facebook Logo" width="25" height="25" />
+</a>
+<a  href="https://www.instagram.com/" target="_blank" >
+<img src="webpage-pictures/iconmonstr-instagram-w.png" alt="Instagram Logo" width="25" height="25" />
+</a>
+<p id="validation">
+  <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+    <img src="webpage-pictures/html5logo.png" alt="Valid HTML5 Logo" height="25" width="88"/>
+  </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" height="25" width="88"/>
+    </a>
+</p>
+<p id="upnumber">UP812110</p>
+</footer>
+
+
+</body>
